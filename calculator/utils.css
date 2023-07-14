@@ -1,0 +1,32 @@
+
+
+.text_center{
+    text-align:center;
+    font-weight: 550;
+}
+.container{
+    margin:auto;
+    margin-top:110px;
+    width: 285px;
+    height: 482px;
+    padding: 19px;
+    border-radius: 16px;
+    align-items:center;
+    background-color: rgb(55, 55, 55);
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text" i]{
+    font-size: 20px;
+    font-weight: 500;
+    height: 25px;
+    margin: 0;
+    width: 200px;
+    padding:10px 25px;
+    border:2px solid rgb(55, 55, 55);
+    border-radius:5px;
+}

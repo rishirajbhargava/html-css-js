@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap);
+
+:root{
+  --header-height:30px;
+  --font: 'Poppins', sans-serif;
+  --primary-color:rgb(255, 165, 30);
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:var(--header-height) 0 0 0;
+    height:100%;
+    width: 100%;
+    background-color: rgb(28, 28, 28);
+    text-decoration: none;
+    background-image: url(./assets/bg.jpg);
+   
+
+}
+
+
+*{
+  margin: 0px;
+  padding:0px;
+  }
+
+ 
+
+
+.button{
+    padding:20px;
+    margin:4px 2px;
+    border: 1px solid rgb(55, 55, 55);
+    border-radius: 50%;
+    cursor:pointer;
+    text-align: center;
+    text-decoration: none;
+    width: 58px;
+    font-size:14px;
+    font-weight: 600;
+    text-align:center;
+    background-color: rgb(92, 92, 92);
+    color:white;
+    
+}
+.row{
+    margin:8px 0;
+}
+
+
+.operators{
+    background-color:rgb(255, 165, 30);
+}
+
+.rowtop{
+    background-color:rgb(155, 155, 155);
+}
+
+
+
+.l_header{
+  width:100%;
+  height:50px;
+  position:fixed;
+  top:0;
+  left:0;
+  background-color: rgb(37, 37, 37);
+  display:flex;
+}
+
+.bd-grid {
+  max-width: 1024px;
+  display: grid;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
+}
+.nav{
+  display:flex;
+  position:relative;
+  align-items: center;
+ 
+}
+.nav_logo{
+  margin: 0 75px;
+  font-family:var(--font);
+  font-size:1.5rem;
+  font-weight: 650;
+  text-decoration: none;
+  color:white;
+}
+
+.nav_list{
+  display:flex;
+  margin-left:30px;
+  list-style-type: none;
+  
+}
+.nav_menu{
+  right:0;
+  margin-left:40px;
+  
+}
+
+.nav__item{
+  position:relative;
+  margin:0 30px;
+  right:0;
+}
+.nav__link{
+  text-decoration: none;
+  color:white;
+}
+.nav__link:hover{
+  color:var(--primary-color);
+}
